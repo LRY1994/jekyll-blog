@@ -11,8 +11,11 @@ $base-line-height: 1.5 !default;
 $spacing-unit:     30px !default;
 
 $text-color:       #111 !default;
-$background-color: #fdfdfd !default;
+$background-color: rgb(247,202,201) !default;
 $brand-color:      #2a7ae2 !default;
+
+$bule-serenity : rgb(146,168,209); 
+$pink-rose-quartz :rgb(146,168,209);
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
