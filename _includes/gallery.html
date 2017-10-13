@@ -1,4 +1,21 @@
 <div class="galleryDiv">
+    <div class="pictrue rotate_right">
+        <img alt="avatar"  src="{{ site.url }}/img/yunnan.jpg" />
+     <span >我是一个正在努力学习的小行僧。</span>
+    </div>
 
- hola
+    <div class="contact">
+        <div class="contact-box">
+               {% assign accounts = site.data.socialAcount %}
+               {% for a in accounts %}
+                <a href="{{a.adress}}" rel="{{a.type}}" target="_blank">
+                    <img src="{{site.url}}/img/{{a.icon}}">
+                   {{a.name}}
+                </a>
+                {% endfor %}
+                
+        </div>
+        <p>¡Hola!记录生活</p>
+    </div>
+
 </div>

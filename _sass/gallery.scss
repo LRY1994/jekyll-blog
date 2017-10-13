@@ -1,5 +1,50 @@
 .galleryDiv{
     margin:0 auto;
     width:90%;
+    max-width: 1000px;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    .rotate_right{
+        @include rotate(-7deg);
+    }
+    .pictrue{
+        width:35%;
+        margin-top: 36px;
+        padding:10px 10px 20px 10px ;
+        border: 1px solid #bfbfbf;
+        background-color: white;
+        box-shadow: 2px 2px 3px #aaaaaa;
+        display: inline-block;
+    }
+    .contact{
+        width: 40%;       
+        display: inline-block;
+       
+        vertical-align: top;
+        margin-top: 15%;
+        .contact-box{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            a {
+                color:  #4470c2;
+                margin-bottom: 10px;
+                img{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 20px;
+                }
+                &:hover{
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+               
+                
+            }
+        }
+    }
 
 }
+

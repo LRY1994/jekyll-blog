@@ -1,0 +1,43 @@
+/*------------------------------------*\
+    #MIXINS
+\*------------------------------------*/
+
+@mixin border-radius($radius){
+    -webkit-border-radius:$radius;
+        -moz-border-radius:$radius;
+          -ms-border-radius:$radius;
+              border-radius:$radius;
+
+}
+@mixin box-shadow($h-shadow:0 ,$v-shadow:0, $blur:0, $spread:0, $color:#aaaaaa){
+    -webkit-box-shadow:$h-shadow $v-shadow $blur $spread $color ;
+        -moz-box-shadow:$h-shadow $v-shadow $blur $spread $color ;
+         -ms-box-shadow:$h-shadow $v-shadow $blur $spread $color ;
+}
+
+@mixin border-image($source,$slice,$width,$repeat){
+    -webkit-border-image: $soure $slice $width $repeat;          
+            border-image:$source $slice $width $repeat;
+}
+
+@mixin background-size($width ,$height){
+    -webkit-background-size:$width $height;
+       -moz-background-size:$width $height;
+        -ms-background-size:$width $height;
+            background-size:$width $height;
+        
+}
+@mixin background-origin($position){
+    -webkit-background-origin: $position;
+       -moz-background-origin: $position;
+         -ms-background-origin:$position;
+             background-origin: $position;
+}
+
+@mixin rotate($angular) {
+    -webkit-transform: rotate($angular);
+       -moz-transform: rotate($angular);
+        -ms-transform: rotate($angular);
+         -o-transform: rotate($angular);
+            transform: rotate($angular);
+  }
