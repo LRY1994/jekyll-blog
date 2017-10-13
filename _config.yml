@@ -27,7 +27,7 @@ github_username:  LRY1994
 # Build settings
 #what version of Markdown we'd like to use
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-merlot
 plugins:
   - jekyll-feed
 
