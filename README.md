@@ -18,3 +18,7 @@ sass的导入(@import)规则和CSS的有所不同，编译时会将@import的 ``
 刚开始有点疑惑，他就是类似于局部替换那样，{{content}}指的就是那个使用这个layout的文件的内容
 _layout放的是可以复用的格局代码段
 ![layout and content](https://raw.githubusercontent.com/LRY1994/myPersonalSite/master/img_for_README/1.png)
+
+## 部署
+部署的时候网上别人说github会自动识别master，但是我不会，需要进行github pages设置
+![deployment](https://github.com/LRY1994/linruiyu.github.io/blob/master/img_for_README/2.png)
