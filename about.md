@@ -10,7 +10,7 @@ https://jekyllrb.com/docs/home<br>
 http://jmcglone.com/guides/github-pages/<br>
 http://jekyllthemes.org/<br>
 
-`{% include xxx.html %}` 放在_include目录下的xxx.html<br>
+`\{\% include xxx.html \%\}` 放在_include目录下的xxx.html<br>
 `layout: xxx`   放在_layout目录下的xxx.html<br>
 `site.data.xxx ` 放在_data目录下的xxx.yml<br>
 `site.pages` 放在根目录下的xxx.md<br>
