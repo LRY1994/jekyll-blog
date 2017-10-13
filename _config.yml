@@ -25,6 +25,7 @@ twitter_username: LRY1994
 github_username:  LRY1994
 
 # Build settings
+#what version of Markdown we'd like to use
 markdown: kramdown
 theme: minima
 plugins:
