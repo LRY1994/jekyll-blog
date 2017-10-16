@@ -22,3 +22,18 @@ _layout放的是可以复用的格局代码段
 ## 部署
 部署的时候网上别人说github会自动识别master，但是我不会，需要进行github pages设置
 ![deployment](https://github.com/LRY1994/linruiyu.github.io/blob/master/img_for_README/2.png)
+
+
+
+ 
+利用Jekyll构建网站，github pages部署
+
+https://jekyllrb.com/docs/home<br>
+http://jmcglone.com/guides/github-pages/<br>
+http://jekyllthemes.org/<br>
+
+`\{\% include xxx.html \%\}` 放在_include目录下的xxx.html<br>
+`layout: xxx`   放在_layout目录下的xxx.html<br>
+`site.data.xxx ` 放在_data目录下的xxx.yml<br>
+`site.pages` 放在根目录下的xxx.md<br>
+site.header_pages
