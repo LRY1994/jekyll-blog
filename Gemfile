@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source "https://ruby.taobao.org/"
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -9,6 +9,9 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 3.6.0"
+
+gem "jekyll-sitemap"
+gem "jekyll-paginate"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
