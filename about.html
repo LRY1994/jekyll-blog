@@ -4,12 +4,32 @@ title: About_Me
 permalink: /about/
 ---
 <div class="wrapper">
-    
-    <a class="page-link" href="/about/">English</a>
-    <a class="page-link" href="/about/">中文</a>
-    {% include cv_en.html %}
+    <div class="socialAcount">
+        <div class="socialAcount-box">
+               {% assign accounts = site.data.socialAcount %}
+               {% for a in accounts %}
+                <a href="{{a.adress}}" rel="{{a.type}}" target="_blank">
+                    <img src="{{site.url}}/img/{{a.icon}}">
+                   {{a.name}}
+                </a>
+                {% endfor %}
+                
+        </div>       
+    </div>
+        <div class="row_layout" style=" width:60%;float:left;margin-bottom: 30px;margin-top: 70px;">
+             <!-- <a class="page-link" href="/about/">English</a>
+             <a class="page-link" href="/about/">中文</a> -->
+             {% include cv_en.html %}
+             
+        </div>
+        <!-- <div class="row_layout" style=" margin-bottom: 30px;margin-top: 60px;">
+               
+                {% include cv_zn.html %}
+                
+        </div> -->
+        
+   
 </div>
-
 
 
 
