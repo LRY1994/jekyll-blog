@@ -1,6 +1,8 @@
 ---
 layout: page
+comments: true
 ---
+
 <article class="article-page">
   <div class="page-content">
     {% if page.img %}
@@ -27,7 +29,10 @@ layout: page
           {% endfor %}
         </div>
       </div>
+      {% if site.disqus_shortname %}
       {% include disqus_comments.html %}
+    {% endif %}
+     
     </div> <!-- End Wrap Content -->
   </div> <!-- End Page Content -->
 </article> <!-- End Article Page -->
