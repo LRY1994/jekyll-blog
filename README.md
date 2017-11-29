@@ -14,26 +14,6 @@ http://www.jianshu.com/p/1093b5565918
 sass的导入(@import)规则和CSS的有所不同，编译时会将@import的 ``scss ``文件合并进来只生成一个CSS文件。
 但是如果你在sass文件中导入 `` css `` 文件如@import 'reset.css'，那效果跟普通CSS导入样式文件一样，导入的css文件不会合并到编译后的文件中，而是以@import方式存在。
 
-## _layout 和 {{content}}
-刚开始有点疑惑，他就是类似于局部替换那样，{{content}}指的就是那个使用这个layout的文件的内容
-_layout放的是可以复用的格局代码段
-![layout and content](https://raw.githubusercontent.com/LRY1994/myPersonalSite/master/img_for_README/1.png)
+sass有两种注释方式，一种是标准的css注释方式/* */，另一种则是//双斜杆形式的单行注释，不过这种单行注释不会被转译出来。
 
-## 部署
-部署的时候网上别人说github会自动识别master，但是我不会，需要进行github pages设置
-![deployment](https://github.com/LRY1994/linruiyu.github.io/blob/master/img_for_README/2.png)
-
-
-
- 
-利用Jekyll构建网站，github pages部署
-
-https://jekyllrb.com/docs/home<br>
-http://jmcglone.com/guides/github-pages/<br>
-http://jekyllthemes.org/<br>
-
-`\{\% include xxx.html \%\}` 放在_include目录下的xxx.html<br>
-`layout: xxx`   放在_layout目录下的xxx.html<br>
-`site.data.xxx ` 放在_data目录下的xxx.yml<br>
-`site.pages` 放在根目录下的xxx.md<br>
-site.header_pages
+** sass的变量必须是$开头 **，后面紧跟变量名，而变量值和变量名之间就需要使用冒号(:)分隔开（就像CSS属性设置一样），如果值后面加上!default则表示默认值。变量作为属性或在某些特殊情况下等则必须要以#{$variables}形式使用
