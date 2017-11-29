@@ -1146,7 +1146,7 @@ a.newer-posts:hover {
 }
 
 .page-cover-image {
-  position: relative;
+  float: left;
   padding: 0;
   margin: 0;
   max-height: 500px;
