@@ -3,8 +3,6 @@
     padding-top: 60px;
     width:90%;
     max-width: 1000px;
-    border-bottom: 1px solid #e8e8e8;
-    padding-bottom: 40px;
     display: flex;
     .rotate_right{
         @include rotate(-7deg);
@@ -21,8 +19,8 @@
     .quote{
         padding-top: 15%;
         padding-left: 5%;
-        line-height: 2rm;
-        font-size: 1.5rm;
+        line-height: 2em;
+        font-size: 1.2em;
         font-weight: bold;
         
     }
@@ -31,7 +29,10 @@
 
 @media only screen and (max-width : 480px) {
     .galleryDiv{
-        display: block;       
+        display: block;    
+        .pictrue{
+            width: 90%;
+        }   
         .quote{
             padding-top:40px;
             
