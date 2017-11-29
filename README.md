@@ -11,6 +11,9 @@ http://www.jianshu.com/p/1093b5565918
 jekyll官网
 https://jekyllrb.com/
 
+ Liquid template language
+ 
+
 ### 关于scss
 所有的sass导入文件都可以忽略后缀名.scss。一般来说基础的文件命名方法以_开头，如_mixin.scss。这种文件在导入的时候可以不写下划线，可写成@import "mixin"。
 

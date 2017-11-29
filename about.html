@@ -16,10 +16,16 @@ permalink: /about/
                 
         </div>       
     </div>
+    {% assign cvtype = 'en' %}
+    
         <div class="row_layout" style=" width:60%;float:left;margin-bottom: 30px;margin-top: 70px;">
-             <!-- <a class="page-link" href="/about/">English</a>
-             <a class="page-link" href="/about/">中文</a> -->
-             {% include cv_en.html %}
+             <a class="page-link" href="javascript:void(0)" onClick="cvtype ='en'">English</a>
+             <a class="page-link" href="javascript:void(0)" onClick="cvtype = 'zn'">中文</a> 
+             {% if cvtype=='en' %}
+                {% include cv_en.html %}
+             {% else %}
+                {% include cv_zn.html %}
+             {% endif %}
              
         </div>
         <!-- <div class="row_layout" style=" margin-bottom: 30px;margin-top: 60px;">
