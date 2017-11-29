@@ -25,3 +25,22 @@
         }
     }
 }
+.row_layout2{
+    width:60%;
+    float:left;
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+@media only screen and (max-width : 720px) {
+    .row_layout2{
+        float: none;
+    }
+    .socialAcount{
+        display: block;
+        float: none;
+         width: 100%;
+        .socialAcount-box{         
+            flex-direction: row;
+        }
+    }
+}    
