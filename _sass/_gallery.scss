@@ -21,13 +21,20 @@
     .quote{
         padding-top: 15%;
         padding-left: 5%;
-        line-height: 2em;
-        font-size: 1.5em;
+        line-height: 2rm;
+        font-size: 1.5rm;
         font-weight: bold;
         
     }
 }
     
 
-
-
+@media only screen and (max-width : 480px) {
+    .galleryDiv{
+        display: block;       
+        .quote{
+            padding-top:40px;
+            
+        }
+    }
+}
