@@ -29,10 +29,21 @@ comments: true
           {% endfor %}
         </div>
       </div>
-      {% if site.disqus_shortname %}
-      {% include disqus_comments.html %}
-    {% endif %}
+      <div id="gitmentContainer"></div>
      
     </div> <!-- End Wrap Content -->
   </div> <!-- End Page Content -->
 </article> <!-- End Article Page -->
+
+
+<script>
+var gitment = new Gitment({
+    owner: 'LRY1994',
+    repo: 'lry1994.github.io',
+    oauth: {
+        client_id: "{{site.gitment.client_id}}",
+        client_secret: "{{site.gitment.client_secret}}"
+    },
+});
+gitment.render('gitmentContainer');
+</script>

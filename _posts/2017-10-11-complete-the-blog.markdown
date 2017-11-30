@@ -82,3 +82,6 @@ layout 必须是_layout文件夹里面的文件
 site.pages 还包括了blog/page/2,blog/page/3等等所有page
 
 permalink: /about ,href="{{ site.baseurl }}/about"就可以链接得到
+
+_config.yml修改完需要重新启动 jekyll serve
+
