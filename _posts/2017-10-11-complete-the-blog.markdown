@@ -3,6 +3,7 @@ layout: post
 title:  "Complete the blog!"
 date:   2017-10-13 09:24:38 +0800
 img: "a.jpg"
+tags: [programing]
 ---
 
 Today, I almost complete the whole frame of my blog.
@@ -93,3 +94,10 @@ permalink: /about ,href="{{ site.baseurl }}/about"就可以链接得到
 
 _config.yml修改完需要重新启动 jekyll serve
 
+{{site_tags}}
+
+programing haha reading
+
+{{site.tags}}
+
+ {"programing"=>[#, #, #], "haha"=>[#], "reading"=>[#]}
