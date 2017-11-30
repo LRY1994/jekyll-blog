@@ -47,7 +47,7 @@ Jekyll官网文档看一遍
 
   >Pagination works when called from within the HTML file, named index.html
 
-也就是说需要有分页功能的那个页面必须叫做index.html
+也就是说需要有分页功能的那个页面必须叫做index.html,这个页面不能有 permalink
 
 然后_congif.yml里面的 paginate_path 怎么设置呢。这个没什么关系，只要和分页的上一页下一页链接对应就好。
 
