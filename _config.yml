@@ -35,13 +35,13 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
 
-paginate: 8
-paginate_path: "/page/:num"
+paginate: 2
+paginate_path: "blog/page/:num"
 comments: disqus
 disqus_shortname : linruiyu # Your disqus 
 disqus_button: true # disqus load button
 
-gems: [jekyll-paginate, jekyll-feed, jekyll-sitemap]
+plugins: [jekyll-paginate, jekyll-feed, jekyll-sitemap]
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
