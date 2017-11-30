@@ -73,7 +73,15 @@ Jekyll官网文档看一遍
 
 来获取
 
+## **评论**
 
+看到很多人用disqus,但是这个好像需要有域名才可以注册
+
+gitment免费，使用简单，但是需要有git账号哦
+
+[Gitment](http://blog.csdn.net/anttu/article/details/77688004)
+
+gitment 不能再本地运行哦
 
 ### **其他**
 
