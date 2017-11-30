@@ -68,6 +68,12 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+  .page-cover-image{
+    .page-image{
+      width: 100%;
+      margin:0;
+    }
+  }
   .content-box {
     padding: 10px;
     padding-top: 70px;
