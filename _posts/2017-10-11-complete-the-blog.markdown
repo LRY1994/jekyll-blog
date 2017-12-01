@@ -44,6 +44,9 @@ Jekyll官网文档看一遍
 
   我的模板参考 [flexible-jekyll](http://artemsheludko.pw/flexible-jekyll/)
 
+[使用HTML5/CSS3五步快速制作便签贴特效](http://www.cnblogs.com/TomXu/archive/2011/12/13/2285755.html)
+
+[图片轮播脚本](http://sc.chinaz.com/tag_jiaoben/tupianlunbo.html)
 
 ### **分页**
 

@@ -301,7 +301,7 @@ function ImageFlow() {
     /* Cache EVERYTHING that only changes on refresh or resize of the window */
     this.refresh = function () {
         /* Cache global variables */
-        this.imagesDivWidth =500;// my.imagesDiv.offsetWidth + my.imagesDiv.offsetLeft;
+        this.imagesDivWidth =900;// my.imagesDiv.offsetWidth + my.imagesDiv.offsetLeft;
         this.maxHeight = Math.round(my.imagesDivWidth / my.aspectRatio);
         this.maxFocus = my.imageFocusMax * my.xStep;
         this.size = my.imagesDivWidth * 0.5;
