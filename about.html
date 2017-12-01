@@ -16,23 +16,38 @@ permalink: /about/
                 
         </div>       
     </div>
-    {% assign cvtype = 'en' %}
-    
-        <div class="row_layout row_layout2">
-             <!-- <a class="page-link" href="javascript:void(0)" onClick="cvtype ='en'">English</a>
-             <a class="page-link" href="javascript:void(0)" onClick="cvtype = 'zn'">中文</a>  -->
-             {% if cvtype=='en' %}
-                {% include cv_en.html %}
-             {% else %}
-                {% include cv_zn.html %}
-             {% endif %}
-             
-        </div>
-        <!-- <div class="row_layout" style=" margin-bottom: 30px;margin-top: 60px;">
-               
-                {% include cv_zn.html %}
-                
-        </div> -->
+    <!-- <div class="memoo">
+        <ul> 
+            <li>
+                <h2>Dudu：</h2> 
+            </li> 
+            <li>
+                <h2>汤姆大叔：</h2> 
+            </li> 
+            <li>
+                <h2>技术弟弟：</h2> 
+            </li> 
+            <li>
+                <h2>Artech：</h2> 
+            </li> 
+            <li>
+                <h2>吉日嘎拉：</h2> 
+            </li> 
+            <li>
+                <h2>某武林高手：</h2> 
+            </li> 
+        </ul>         
+    </div> -->
+  
+    {% include selfPhoto.html%}
+
+    <div class="row_layout row_layout2">         
+           
+            {% include cv_en.html %}
+           
+            
+    </div>
+        
         
    
 </div>

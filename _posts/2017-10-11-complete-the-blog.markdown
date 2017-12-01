@@ -13,7 +13,7 @@ Today, I almost complete the whole frame of my blog.
 
 参考链接
 
-[安装Jekyll](http://www.jianshu.com/p/1093b55659180)
+[安装Jekyll](http://www.jianshu.com/p/1093b5565918)
 
 按照里面的步骤我遇到一个问题：jekyll new 的时候提示
 
@@ -21,6 +21,11 @@ Today, I almost complete the whole frame of my blog.
 
 解决方法:
   gem install  bundler
+
+RubyGems 镜像的管理已经交由 Ruby China 负责了，需要切换下原先的 source
+改 Gemfile 的 source 
+
+>source 'https://rubygems.org/'
 
 ### **开始写博客啦**
 
