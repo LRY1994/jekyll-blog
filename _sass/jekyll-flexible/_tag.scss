@@ -22,15 +22,16 @@
     margin: 5px;
     list-style: none;
     a {
-      text-decoration: none;
-      color: $dark-blue;
+      background-color:$darkseagreen;
+      color: $ghostwhite;
+      border-radius: 10% 50% 50% 10%;
+      border: 1px dotted $white;
       display: inline-block;
-      padding: 5px 10px;
-      border: 1px solid $gray;
-      background-color: $lightgray;
+      padding: 5px;
+      text-decoration: none;
       transition: all .3s;
       &:hover {
-        background-color: $gray;
+        background-color: $lightgreen;
       }
     }
   }
