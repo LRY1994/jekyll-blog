@@ -88,16 +88,12 @@ gitment 不能再本地运行哦
 
 layout 必须是_layout文件夹里面的文件
 
+\{\%include xx.html\%\} 必须是_include文件夹里面的文件
+
 site.pages 还包括了blog/page/2,blog/page/3等等所有page
 
 permalink: /about ,href="{{ site.baseurl }}/about"就可以链接得到
 
 _config.yml修改完需要重新启动 jekyll serve
 
-{{site_tags}}
-
-programing haha reading
-
-{{site.tags}}
-
- {"programing"=>[#, #, #], "haha"=>[#], "reading"=>[#]}
+site.tags和site_tags两个不一样，可以输出一下看看
