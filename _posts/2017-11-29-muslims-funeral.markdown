@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Muslim's Funeral"
+title:  "读《穆斯林的葬礼》"
 date:   2017-11-29 13:38:38 +0800
 img: "muslimsfuneral.png"
 tags: [reading]
