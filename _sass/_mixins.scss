@@ -9,10 +9,10 @@
               border-radius:$radius;
 
 }
-@mixin box-shadow($h-shadow:0 ,$v-shadow:0, $blur:0, $spread:0, $color:#aaaaaa){
-    -webkit-box-shadow:$h-shadow $v-shadow $blur $spread $color ;
-        -moz-box-shadow:$h-shadow $v-shadow $blur $spread $color ;
-         -ms-box-shadow:$h-shadow $v-shadow $blur $spread $color ;
+@mixin box-shadow($h-shadow:0 ,$v-shadow:0, $blur:0,  $color:#aaaaaa){
+    -webkit-box-shadow:$h-shadow $v-shadow $blur $color ;
+        -moz-box-shadow:$h-shadow $v-shadow $blur  $color ;
+         -ms-box-shadow:$h-shadow $v-shadow $blur  $color ;
 }
 
 @mixin border-image($source,$slice,$width,$repeat){
@@ -40,4 +40,10 @@
         -ms-transform: rotate($angular);
          -o-transform: rotate($angular);
             transform: rotate($angular);
+  }
+
+  @mixin scale($val){
+    -webkit-transform: scale($val);    
+    -moz-transform: scale($val);    
+    -o-transform: scale($val);  
   }

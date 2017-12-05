@@ -1,0 +1,61 @@
+@charset "utf-8";
+*{padding:0; margin:0}
+
+h3{text-align: center;line-height: 60px;color: aliceblue}
+
+.mKeBanner,.mKeBanner div{text-align:center;}
+.imageflow img{ -webkit-box-shadow: 2px 2px 2px 2px hsla(0,0%,0%,0.1); box-shadow: 2px 2px 2px 2px hsla(0,0%,0%,0.1); }
+.imageflow{overflow:hidden; position:relative; text-align:left; visibility:hidden; width:1200px; margin:0 auto}
+.imageflow img{border:none; position:absolute; top:0px; visibility:hidden; -ms-interpolation-mode:bicubic}
+.imageflow p{margin:0 auto; text-align:center}
+.imageflow .loading{border:1px solid #ccc; height:15px; left:50%; margin-left:-106px; padding:5px; position:relative; visibility:visible; width:200px}
+.imageflow .loading_bar{background:#ccc; height:15px; visibility:visible; width:1%}
+.imageflow .caption{font-weight:bold; position:relative; text-align:center; z-index:10000}
+.imageflow .scrollbar{border-bottom:1px solid #b3b3b3; position:relative; visibility:hidden; z-index:10001; height:1px}
+// .imageflow .slider{background-image:url(../../Images/Index/slider.png); background-repeat:no-repeat; height:14px; margin:-6px 0 0 -7px; position:absolute; width:14px; z-index:10002}
+.imageflow .images{overflow:hidden; white-space:nowrap}
+.imageflow .button{cursor:pointer; height:17px; position:relative; width:17px}
+// .imageflow .previous{background:url(../../Images/Index/button_left.png) top left no-repeat; float:left; margin:-7px 0 0 -30px}
+// .imageflow .next{background:url(../../Images/Index/button_right.png) top left no-repeat; float:right; margin:-7px -30px 0 30px}
+
+
+.paopao{
+    width:300px;
+    padding:80px 20px;
+    margin-left:100px;
+    background:#beceeb;
+    -webkit-border-top-left-radius:220px 120px;
+    -webkit-border-top-right-radius:220px 120px;
+    -webkit-border-bottom-right-radius:220px 120px;
+    -webkit-border-bottom-left-radius:220px 120px;
+    -moz-border-radius:220px / 120px;
+    border-radius:220px / 120px;
+    position: absolute;
+    right: 100px;
+    span{
+        width:0; 
+        height:0; 
+        font-size:0;
+        background:#beceeb; 
+        overflow:hidden;
+        position:absolute;
+        &.bot{
+            width:30px;
+            height:30px;
+            -moz-border-radius:30px;
+            -webkit-border-radius:30px;
+            border-radius:30px;
+            left:10px;
+            bottom:-20px;
+        }
+        &.top{
+            width:15px;
+            height:15px;
+            -moz-border-radius:15px;
+            -webkit-border-radius:15px;
+            border-radius:15px;
+            left:0px;
+            bottom:-40px;
+        }
+    }
+}

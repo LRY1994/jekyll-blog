@@ -16,23 +16,26 @@ permalink: /about/
                 
         </div>       
     </div>
-    {% assign cvtype = 'en' %}
-    
-        <div class="row_layout row_layout2">
-             <!-- <a class="page-link" href="javascript:void(0)" onClick="cvtype ='en'">English</a>
-             <a class="page-link" href="javascript:void(0)" onClick="cvtype = 'zn'">中文</a>  -->
-             {% if cvtype=='en' %}
-                {% include cv_en.html %}
-             {% else %}
-                {% include cv_zn.html %}
-             {% endif %}
-             
-        </div>
-        <!-- <div class="row_layout" style=" margin-bottom: 30px;margin-top: 60px;">
-               
-                {% include cv_zn.html %}
-                
-        </div> -->
+     <div class="memoo">
+        <ul> 
+            <li> 经常减肥无成效</li>       
+            <li> 想旅游但没钱</li> 
+            <li> 不挑食 </li>
+            <li> 迷恋自拍</li>       
+            <li> 胸怀大志</li> 
+                   
+        </ul>  
+    </div> 
+  
+    {% include selfPhoto.html%}
+
+    <div class="row_layout row_layout2">         
+           
+            <!-- {% include cv_en.html %} -->
+           
+            
+    </div>
+        
         
    
 </div>
