@@ -9,7 +9,7 @@ permalink: /about/
                {% assign accounts = site.data.socialAcount %}
                {% for a in accounts %}
                 <a href="{{a.adress}}" rel="{{a.type}}" target="_blank">
-                    <img src="{{site.url}}/img/{{a.icon}}"><br/>
+                    <img src="{{site.url}}/img/icon/{{a.icon}}"><br/>
                    {{a.name }}
                 </a>
                 {% endfor %}
