@@ -32,9 +32,9 @@ vue 与angualr1 ,react 不同体验整理
 # React与vue比较
 ### 生命周期
 #### React生命周期
-![react生命周期](img/react-life.png)
+![react生命周期](https://raw.githubusercontent.com/LRY1994/lry1994.github.io/master/img/blogPhoto/react-life.png)
 #### vue生命周期
-![vue生命周期](img/vue-life.png)
+![vue生命周期](https://raw.githubusercontent.com/LRY1994/lry1994.github.io/master/img/blogPhoto/vue-life.png)
 
 
 ### 总结
