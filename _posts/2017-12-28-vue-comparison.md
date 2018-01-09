@@ -79,7 +79,7 @@ vue 与angualr1 ,react 不同体验整理
 5. connect(mapStateToProps, mapDispatchToProps)（组件）
 6. 组件里面使用this.props.（action.type）(action.data)
 
-![react-redux使用流程](img/react-redux-process.png)
+![react-redux使用流程](https://raw.githubusercontent.com/LRY1994/lry1994.github.io/master/img/blogPhoto/react-redux-process.png)
 
 #### vuex
 1. 写好store和不同模块的state,mutations,getters,actions 
@@ -248,9 +248,9 @@ export default {
 
 ### 6-调用链
 #### React-redux调用链
-![React-redux调用链](img/react-redux-lian.png)
+![React-redux调用链](https://raw.githubusercontent.com/LRY1994/lry1994.github.io/master/img/blogPhoto/react-redux-lian.png)
 #### Vuex调用链
-![vuex调用链](img/vuex-lian.png)
+![vuex调用链](https://raw.githubusercontent.com/LRY1994/lry1994.github.io/master/img/blogPhoto/vuex-lian.png)
 
 ### 7-总结
 #### React-redux
