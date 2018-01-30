@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "vue vs react vs angular1"
+title:  "《Web 全栈工程师的自我修养》读书笔记"
 date:   2018-1-30 13:38:38 +0800
 img: "a.jpg"
 tags: [programing]
