@@ -32,9 +32,9 @@ vue 与angualr1 ,react 不同体验整理
 # React与vue比较
 ### 生命周期
 #### React生命周期
-![react生命周期](https://raw.githubusercontent.com/LRY1994/lry1994.github.io/master/img/blogPhoto/react-life.png)
+![react生命周期](https://raw.githubusercontent.com/LRY1994/lry1994.github.io/master/img/content/react-life.png)
 #### vue生命周期
-![vue生命周期](https://raw.githubusercontent.com/LRY1994/lry1994.github.io/master/img/blogPhoto/vue-life.png)
+![vue生命周期](https://raw.githubusercontent.com/LRY1994/lry1994.github.io/master/img/content/vue-life.png)
 
 
 ### 总结
@@ -79,7 +79,7 @@ vue 与angualr1 ,react 不同体验整理
 5. connect(mapStateToProps, mapDispatchToProps)（组件）
 6. 组件里面使用this.props.（action.type）(action.data)
 
-![react-redux使用流程](https://raw.githubusercontent.com/LRY1994/lry1994.github.io/master/img/blogPhoto/react-redux-process.png)
+![react-redux使用流程](https://raw.githubusercontent.com/LRY1994/lry1994.github.io/master/img/content/react-redux-process.png)
 
 #### vuex
 1. 写好store和不同模块的state,mutations,getters,actions 
@@ -248,9 +248,9 @@ export default {
 
 ### 6-调用链
 #### React-redux调用链
-![React-redux调用链](https://raw.githubusercontent.com/LRY1994/lry1994.github.io/master/img/blogPhoto/react-redux-lian.png)
+![React-redux调用链](https://raw.githubusercontent.com/LRY1994/lry1994.github.io/master/img/content/react-redux-lian.png)
 #### Vuex调用链
-![vuex调用链](https://raw.githubusercontent.com/LRY1994/lry1994.github.io/master/img/blogPhoto/vuex-lian.png)
+![vuex调用链](https://raw.githubusercontent.com/LRY1994/lry1994.github.io/master/img/content/vuex-lian.png)
 
 ### 7-总结
 #### React-redux
