@@ -80,3 +80,5 @@ PNG可以使用一些开源压缩软件来压缩，比图24色变为8色、去�
 在别的地方看到的图
 
 ![性能优化](https://raw.githubusercontent.com/LRY1994/lry1994.github.io/master/img/blogPhoto/performance-optimize.png)
+![图片适配](https://raw.githubusercontent.com/LRY1994/lry1994.github.io/master/img/blogPhoto/pic-adapt.jpg)
+![aria](https://raw.githubusercontent.com/LRY1994/lry1994.github.io/master/img/blogPhoto/aria.png)
