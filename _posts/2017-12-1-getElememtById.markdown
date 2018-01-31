@@ -2,7 +2,7 @@
 layout: post
 title:  "IE使用getElementById会抓到name"
 date:   2017-12-1 09:24:38 +0800
-img: "a.jpg"
+img: "default.jpg"
 tags: [programing]
 ---
 

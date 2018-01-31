@@ -2,7 +2,7 @@
 layout: post
 title:  "react-cnode实践笔记"
 date:   2017-9-25 13:38:38 +0800
-img: "a.jpg"
+img: "default.jpg"
 tags: [programing]
 ---
 

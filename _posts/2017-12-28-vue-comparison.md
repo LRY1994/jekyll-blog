@@ -2,7 +2,7 @@
 layout: post
 title:  "vue vs react vs angular1"
 date:   2017-12-28 13:38:38 +0800
-img: "a.jpg"
+img: "default.jpg"
 tags: [programing]
 ---
 

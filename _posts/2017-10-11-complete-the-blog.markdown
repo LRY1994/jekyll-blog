@@ -2,7 +2,7 @@
 layout: post
 title:  "Complete the blog!"
 date:   2017-10-13 09:24:38 +0800
-img: "a.jpg"
+img: "default.jpg"
 tags: [programing]
 ---
 

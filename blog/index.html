@@ -6,7 +6,7 @@ title: Posts
 {% for post in paginator.posts %}
 <article class="post">
   {% if post.img %}
-    <a class="post-thumbnail" style="background-image: url({{"/img/blogPhoto/" | prepend: site.baseurl | append : post.img}})" 
+    <a class="post-thumbnail" style="background-image: url({{"/img/cover/" | prepend: site.baseurl | append : post.img}})" 
     href="{{post.url | prepend: site.baseurl}}"></a>
   {% else %}
   {% endif %}
