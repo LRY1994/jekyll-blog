@@ -61,7 +61,7 @@ PNG可以使用一些开源压缩软件来压缩，比图24色变为8色、去�
 
 6、	保持代码库的“干净”
 
- ## 设计原则
+## 设计原则
 
 1、三次法则（rule of three）允许按需直接赋值粘贴代码一次，如果相同的代码重复出现三次及三次以上，将其提取处理做成一个子程序
 
@@ -75,10 +75,30 @@ PNG可以使用一些开源压缩软件来压缩，比图24色变为8色、去�
 
 6、最少知道原则
 
-
  
-在别的地方看到的图
+## 在别的地方看到的图
+
+性能优化
 
 ![性能优化](https://raw.githubusercontent.com/LRY1994/lry1994.github.io/master/img/content/performance-optimize.png)
+
+图片适配
+
 ![图片适配](https://raw.githubusercontent.com/LRY1994/lry1994.github.io/master/img/content/pic-adapt.jpg)
+
+aria无障碍文本
 ![aria](https://raw.githubusercontent.com/LRY1994/lry1994.github.io/master/img/content/aria.png)
+
+## 其他
+
+
+1. Cache-Control
+* no-cache: 告诉浏览器、缓存服务器，不管本地副本是否过期，使用资源副本前，一定要到源服务器进行副本有效性校验。
+* must-revalidate：告诉浏览器、缓存服务器，本地副本过期前，可以使用本地副本；本地副本一旦过期，必须去源服务器进行有效性校验。
+* max-age： 指缓存资源的缓存时间比指定的值小，那么客户端就接受缓存资源，且缓存服务器不对资源有效性进行再次确认
+
+
+2. CSS像素是web编程的概念,是相对的而不是绝对的单位. 用户的缩放比会影响单位CSS像素点对应的实际物理像素的多少
+
+3. 使用Flexible实现手淘H5页面的终端适配
+ https://github.com/amfe/article/issues/17
