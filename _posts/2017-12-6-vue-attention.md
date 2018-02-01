@@ -53,6 +53,7 @@ tags: [programing]
 * v-show 不支持 ```<template>``` 元素， v-else也不支持
 * v-for 具有比 v-if 更高的优先级。
 它能跟踪每个节点的身份，从而重用和重新排序现有元素，你需要为每项提供一个唯一 key 属性。
+
 ```html
 <div v-for="item in items" :key="item.id">
   <!-- 内容 -->
