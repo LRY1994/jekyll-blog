@@ -59,6 +59,7 @@ tags: [programing]
   <!-- 内容 -->
 </div>
 ```
+
 * 建议尽可能在使用 v-for 时提供 key，除非遍历输出的 DOM 内容非常简单，或者是刻意依赖默认行为以获取性能上的提升。
 
   2.2.0+ 的版本里，当在组件中使用 v-for 时，key 现在是必须的。
@@ -81,18 +82,19 @@ example1.items.splice(indexOfItem, 1, newValue)
 2.	当你修改数组的长度时，例如：```vm.items.length = newLength```
 解决方法
 
-```example1.items.splice(newLength)```
-
-
+``` example1.items.splice(newLength) ```
 
 * 对于已经创建的实例，Vue 不能动态添加根级别的响应式属性。但是，可以使用 
 ```Vue.set(object, key, value) ```方法向嵌套对象添加响应式属性。
 还可以使用``` this.$set ```实例方法，或者
+
 ```javascript
+
 this.userProfile = Object.assign({}, this.userProfile, {
   age: 27,
   favoriteColor: 'Vue Green'
 })
+
 ```
 
 * 事件修饰符。
